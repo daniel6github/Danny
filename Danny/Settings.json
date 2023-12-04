@@ -1,0 +1,19 @@
+﻿{
+  "tradingEconomicsToken": {
+    "cnBond": "MjZV%2FG%2B7d23r3YVdgNP5YYk8vaxaquvMsW6UdZ2DqK1FtQoVwAe%2BDvhGOfEEeQKj&ohlc=0",
+    "usBond": "MjZV%2FG%2B7d23r3YVdgNP5YW7sHIpxh%2FuK2suM8woKj0L66B%2F3koXTOnftyng34RYJAocUJvHCYIK3v%2FTH7ZTsWg%3D%3D&ohlc=0",
+    "usdCny": "MjZV%2FG%2B7d23r3YVdgNP5YR8riPC2PcJoIr7%2BWxBk8SLMQVupawilkN3pNYe5na%2FW&ohlc=0"
+  },
+
+  "xueQiuToken": "e2f0876e8fd368a0be2b6d38a49ed2dd5eec7557",
+  "etfCodes": "02800",
+  "stockCodes": "02800,00101,01083,00338,00003",
+
+  "directory": {
+    "root": "/Users/daniel.lu/mytool-v1",
+    "stockList": "StockList",
+    "etfDividend": "ETFDividend",
+    "output": "output"
+  }
+}
+

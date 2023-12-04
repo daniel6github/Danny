@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EF\" />
+    <None Remove="Csv\" />
+    <None Remove="DataExtracting\" />
+    <None Remove="Common\" />
+    <None Remove="Analysis\" />
+    <None Remove="Analysis\Old\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EF\" />
+    <Folder Include="Csv\" />
+    <Folder Include="DataExtracting\" />
+    <Folder Include="Common\" />
+    <Folder Include="Analysis\" />
+    <Folder Include="Analysis\Old\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="EFCore.NamingConventions" Version="7.0.2" />
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+  </ItemGroup>
+</Project>
